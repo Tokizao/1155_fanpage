@@ -1,3 +1,5 @@
 :root {
-    
+    --cor-primaria: rgb(0, 222, 0);
+    --cor-secundaria: rgb(222, 222, 222);
+    --cor-preto: rgb(22, 22, 22);
 }

@@ -1,1 +1,53 @@
 @import url('../../global/global.css');
+
+header{
+    font-family: 'Play';
+    background: var(--cor-preto);
+    position: fixed;
+    z-index: 99;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 400;
+    height: 8vh;
+    width: 100vw;
+}
+
+.logo{
+    color: var(--cor-secundaria);
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+}
+
+.nav_list li{
+    letter-spacing: 2px;
+    margin: 22px;
+}
+
+.nav_list a{
+    color: var(--cor-secundaria);
+}
+
+span{
+    color: var(--cor-primaria);
+}
+
+section{
+    min-height: 100vh;
+}
+
+.section1{
+    padding-top: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
